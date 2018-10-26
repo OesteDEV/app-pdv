@@ -1,0 +1,48 @@
+Instrucciones de instalación y configuración
+---------------------------------------
+
+---------------------------------------
+El archivo para crear la base de datos es el cadproje_pdv2016.sql
+---------------------------------------
+
+
+---------------------------------------
+Dentro de la carpeta 'app \ config' -> 'Config' edite el archivo 'config.php' en la siguiente línea.
+
+$ config ['base_url'] = '';
+
+Aquí usted colocará la url base de su aplicación, si coloca en la raíz del servidor por ejemplo colocará así: $ config ['base_url'] = 'http://127.0.0.1'; o "http://dominio.com"
+
+Si coloca dentro de una carpeta con nombre por ejemplo 'mapos' quedará así:
+$ config ['base_url'] = 'http://127.0.0.1/mapos';
+
+
+Nota: En algunos casos en el entorno local (localhost) es necesario especificar el puerto.
+Ejemplo: $ config ['base_url'] = 'http://127.0.0.1:3000/mapos';
+---------------------------------------
+
+
+---------------------------------------
+Dentro de la carpeta 'app \ config' -> 'Config' edite el archivo 'database.php' y coloque los datos de acceso a la base de datos.
+---------------------------------------
+
+---------------------------------------
+El logotipo se encuentra dentro de la carpeta uploads / logo11.png. Si desea cambiarlo, basta sustituir por el logo deseado con el mismo nombre (logo11.png).
+---------------------------------------
+
+---------------------------------------
+Datos de acceso
+DATOS DE ACCESO AL SISTEMA DESPUÉS INTALACIÓN
+cadprojetos@live.com
+1020304050
+---------------------------------------
+
+
+Cualquier duda o problema nos contacte
+
+Si necesita alojamiento, visite: www.mochost.com.br
+
+Los principiantes en php acceden a nuestro blog: www.nrscripts.blogspot.com
+
+Para más scripts php visite www.coracaodejesusmg.com/php
+
